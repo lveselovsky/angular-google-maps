@@ -48,7 +48,7 @@ export class GoogleMapsAPIWrapper {
         if (addToMap) {
           options.map = map;
         }
-        return new google.maps.Marker(options);
+        return new google.maps.marker.AdvancedMarkerElement(options);
       });
     });
   }
